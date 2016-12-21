@@ -94,7 +94,7 @@ class Notice {
 
 		static::load($lang);
 
-		if (class_exists("HTTPStatusCode") && $code > 99 && $code < 512) {
+		if (class_exists('Josantonius\\HTTPStatusCode') && $code > 99 && $code < 512) {
 
 			if (!isset(static::$notices[$code]) || empty(static::$notices[$code])) {
 
