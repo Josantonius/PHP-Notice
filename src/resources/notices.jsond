@@ -10,7 +10,7 @@
         "_license"   : "http://opensource.org/licenses/MIT - The MIT License (MIT)",
         "_version"   : "1.0.0",
         "_link"      : "http://github.com/josantonius/PHP-HTTPStatusCode",
-        "_since"     : "File available since 1.0.0 - Update: 2016-12-19",
+        "_since"     : "File available since 1.0.0 - Update: 2017-01-10",
         "_comment"   : "Compiled from wikipedia.org/wiki/List_of_HTTP_status_codes"
     },
 
@@ -23,7 +23,7 @@
         "500 - 511" : "Server Error HTTP responses  | Respuestas HTTP server error ",
         "600 - 601" : "PHP Curl class               | Clase Curl                   ",
         "605 - 610" : "PHP Json class               | Clase Json                   ",
-        "700 - 610" : "PHP DataBase class           | Clase DataBase               ",
+        "700 - 705" : "PHP DataBase class           | Clase DataBase               ",
         "995 - 999" : "General errors               | Errores generales            "
     },
 
@@ -42,10 +42,7 @@
             "700": "There is no exist the provider: ",
             "701": "Could not connect to provider: ",
             "702": "Unknown query type",
-            "703": "Error executing SELECT query",
-            "704": "Error SELECT in prepared statements query",
-            "705": "Error to execute query",
-            "706": "Error to execute prepared statements query",
+            "703": "Error to execute the query",
             "995": "Unknown error"
         },
 
@@ -61,11 +58,8 @@
             "610": "Bajo flujo o los modos no coinciden",
             "700": "No existe el proveedor: ",
             "701": "No se pudo conectar con el proveedor: ",
-            "702": "Tipo de consulta desconocido",
-            "703": "Error al ejecutar consulta SELECT",
-            "704": "Error al ejecutar la consulta SELECT con sentencias preparadas",
-            "705": "Error al ejecutar consulta",
-            "706": "Error al ejecutar consulta con sentencias preparadas",
+            "702": "Tipo de consulta desconocida",
+            "703": "Error al ejecutar la consulta",
             "995": "Error desconocido"
         }
     }
