@@ -1,4 +1,4 @@
-<?php declare(strict_types=1);
+<?php
 /**
  * PHP library for handling errors and notices.
  * 
@@ -8,9 +8,9 @@
  * @author     Josantonius - info@josantonius.com
  * @copyright  Copyright (c) 2016 JST PHP Framework
  * @license    https://opensource.org/licenses/MIT - The MIT License (MIT)
- * @version    1.0.0
+ * @version    1.1.0
  * @link       https://github.com/Josantonius/PHP-Notice
- * @since      File available since 1.0.0 - Update: 2016-12-19
+ * @since      File available since 1.0.0 - Update: 2017-01-30
  */
 
 namespace Josantonius\Notice;
@@ -51,7 +51,7 @@ class Notice {
      *
      * @return array → notices
      */
-    protected static function load(string $lang = 'en'): array {
+    protected static function load($lang = 'en') {
 
         if ($lang !== static::$lang) {
 
@@ -90,7 +90,7 @@ class Notice {
      *
      * @return string → notice
      */
-    public static function get(int $code, string $lang = 'en'): string {
+    public static function get($code, $lang = 'en') {
 
 		static::load($lang);
 
@@ -102,7 +102,7 @@ class Notice {
 			}
 		}
 
-		return static::$notices[$code] ?? "Undefined";
+		return (isset(static::$notices[$code])) ? static::$notices[$code] : "Undefined";
 	}
 
     /**
@@ -114,7 +114,7 @@ class Notice {
      *
      * @return array → all notices saved
      */
-    public static function getAll(string $lang = 'en'): array {
+    public static function getAll($lang = 'en') {
 
         static::load($lang);
 

@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.1.0 - 2017-01-30
+* Compatible with PHP 5.6 or higher.
+
+## 1.0.0 - 2017-01-30
+* Compatible only with PHP 7.0 or higher. In the next versions, the library will be modified to make it compatible with PHP 5.6 or higher.
+
 ## 1.0.0 - 2016-12-19
 * Added `Josantonius\Notice\Notice` class.
 * Added `Josantonius\Notice\Notice::load()` method.

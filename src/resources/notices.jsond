@@ -1,17 +1,17 @@
 {
    "_comments": 
     {
-        "_title"     : "Full list of HTTP status codes",
+        "_title"     : "Error notice handler",
         "_category"  : "JST",
-        "_package"   : "ResponseStatusCode",
+        "_package"   : "Notice",
         "_subpackage": "Json",
         "_author"    : "Josantonius - info@josantonius.com",
         "_copyright" : "Copyright (c) 2016 JST PHP Framework",
         "_license"   : "http://opensource.org/licenses/MIT - The MIT License (MIT)",
-        "_version"   : "1.0.0",
-        "_link"      : "http://github.com/josantonius/PHP-HTTPStatusCode",
-        "_since"     : "File available since 1.0.0 - Update: 2017-01-17",
-        "_comment"   : "Compiled from wikipedia.org/wiki/List_of_HTTP_status_codes"
+        "_version"   : "1.1.0",
+        "_link"      : "http://github.com/josantonius/Notice",
+        "_since"     : "File available since 1.0.0 - Update: 2017-01-30",
+        "_comment"   : ""
     },
 
    "_types": 
@@ -25,6 +25,7 @@
         "605 - 610" : "PHP Json class               | Clase Json                   ",
         "615 - 620" : "PHP Autoload class           | Clase Autoload               ",
         "700 - 705" : "PHP DataBase class           | Clase DataBase               ",
+        "706 - 710" : "PHP Logger class             | Clase Logger                 ",
         "995 - 999" : "General errors               | Errores generales            "
     },
 
@@ -41,10 +42,13 @@
             "609": "Unexpected control char found",
             "610": "Underflow or the modes mismatch",
             "615": "File not found:",
-            "700": "There is no exist the provider: ",
-            "701": "Could not connect to provider: ",
+            "700": "There is no exist the provider:",
+            "701": "Could not connect to provider:",
             "702": "Unknown query type",
             "703": "Error to execute the query",
+            "706": "Could not create directory in:",
+            "707": "Could not create or open file in:",
+            "708": "Could not write to file:",
             "995": "Unknown error"
         },
 
@@ -63,6 +67,9 @@
             "701": "No se pudo conectar con el proveedor: ",
             "702": "Tipo de consulta desconocida",
             "703": "Error al ejecutar la consulta",
+            "706": "No se ha podido crear el directorio en:",
+            "707": "No se ha podido crear o abrir el archivo en:",
+            "708": "No se ha podido escribir en el archivo:",
             "995": "Error desconocido"
         }
     }
