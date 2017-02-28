@@ -2,31 +2,30 @@
    "_comments": 
     {
         "_title"     : "Error notice handler",
-        "_category"  : "JST",
-        "_package"   : "Notice",
-        "_subpackage": "Json",
-        "_author"    : "Josantonius - info@josantonius.com",
-        "_copyright" : "Copyright (c) 2016 JST PHP Framework",
-        "_license"   : "http://opensource.org/licenses/MIT - The MIT License (MIT)",
-        "_version"   : "1.1.0",
+        "_author"    : "Josantonius - hola@josantonius.com",
+        "_copyright" : "Copyright (c) 2016 - 2017",
+        "_license"   : "http://opensource.org/licenses/MIT - MIT License",
         "_link"      : "http://github.com/josantonius/Notice",
-        "_since"     : "File available since 1.0.0 - Update: 2017-01-30",
+        "_since"     : "1.0.0",
         "_comment"   : ""
     },
 
    "_types": 
     {
-        "100 - 103" : "Informational HTTP responses | Respuestas HTTP informativas ",
-        "200 - 208" : "Successful HTTP responses    | Respuestas HTTP éxito        ",
-        "300 - 308" : "Redirection HTTP responses   | Respuestas HTTP redirecciones",
-        "400 - 451" : "Client Error HTTP responses  | Respuestas HTTP cliente error",
-        "500 - 511" : "Server Error HTTP responses  | Respuestas HTTP server error ",
-        "600 - 601" : "PHP Curl class               | Clase Curl                   ",
-        "605 - 610" : "PHP Json class               | Clase Json                   ",
-        "615 - 620" : "PHP Autoload class           | Clase Autoload               ",
-        "700 - 705" : "PHP DataBase class           | Clase DataBase               ",
-        "706 - 710" : "PHP Logger class             | Clase Logger                 ",
-        "995 - 999" : "General errors               | Errores generales            "
+        "100 - 103" : "Informational HTTP responses",
+        "200 - 208" : "Successful HTTP responses",
+        "300 - 308" : "Redirection HTTP responses",
+        "400 - 451" : "Client Error HTTP responses",
+        "500 - 511" : "Server Error HTTP responses",
+        "600 - 601" : "PHP Curl class",
+        "605 - 610" : "PHP Json class",
+        "615 - 620" : "PHP Autoload class",
+        "700 - 705" : "PHP DataBase class",
+        "706 - 710" : "PHP Logger class",
+        "800 - 803" : "PHP Eliasis App Class",
+        "804 - 810" : "PHP Eliasis Controller Class",
+        "811 - 815" : "PHP Eliasis Hook Class",
+        "995 - 999" : "General errors"
     },
 
    "data": 
@@ -49,6 +48,13 @@
             "706": "Could not create directory in:",
             "707": "Could not create or open file in:",
             "708": "Could not write to file:",
+            "800": "No parameter was received",
+            "804": "Controller not found",
+            "805": "Model not found",
+            "806": "View not found",
+            "807": "Clone is not allowed in:",
+            "811": "Hook location not defined:",
+            "812": "Module configuration file not found",
             "995": "Unknown error"
         },
 
@@ -70,6 +76,13 @@
             "706": "No se ha podido crear el directorio en:",
             "707": "No se ha podido crear o abrir el archivo en:",
             "708": "No se ha podido escribir en el archivo:",
+            "800": "No se recibió ningún parámetro",
+            "804": "No se encontró el controlador",
+            "805": "No se encontró el modelo",
+            "806": "No se encontró la vista",
+            "807": "No se permite clonar en:",
+            "811": "Ubicación del hook no definida:",
+            "812": "No se encontró el archivo de configuración del módulo",
             "995": "Error desconocido"
         }
     }
