@@ -2,8 +2,8 @@
 /**
  * PHP library for handling errors and notices.
  * 
- * @author     Josantonius - hola@josantonius.com
- * @copyright  Copyright (c) 2016-2017
+ * @author     Josantonius - hello@josantonius.com
+ * @copyright  Copyright (c) 2016 - 2017
  * @license    https://opensource.org/licenses/MIT - The MIT License (MIT)
  * @link       https://github.com/Josantonius/PHP-Notice
  * @since      1.0.0
@@ -77,9 +77,9 @@ class Notice {
      *
      * If the definition does not exist and the class HTTPStatusCode exists,
      * the definition of the HTTPStatusCode class will be used.
-	 *
-	 * @link https://github.com/Josantonius/PHP-HTTPStatusCode
-	 *
+     *
+     * @link https://github.com/Josantonius/PHP-HTTPStatusCode
+     *
      * @since 1.0.0
      *
      * @param string $code → notice code
@@ -88,18 +88,18 @@ class Notice {
      */
     public static function get($code, $lang = 'en') {
 
-		static::load($lang);
+        static::load($lang);
 
-		if (class_exists('Josantonius\\HTTPStatusCode') && $code > 99 && $code < 512) {
+        if (class_exists('Josantonius\\HTTPStatusCode') && $code > 99 && $code < 512) {
 
-			if (!isset(static::$notices[$code]) || empty(static::$notices[$code])) {
+            if (!isset(static::$notices[$code]) || empty(static::$notices[$code])) {
 
-				return HTTPStatusCode::get($code, static::$lang);
-			}
-		}
+                return HTTPStatusCode::get($code, static::$lang);
+            }
+        }
 
-		return (isset(static::$notices[$code])) ? static::$notices[$code] : "Undefined";
-	}
+        return (isset(static::$notices[$code])) ? static::$notices[$code] : "Undefined";
+    }
 
     /**
      * Get a notices array.

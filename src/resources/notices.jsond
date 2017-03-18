@@ -2,7 +2,7 @@
    "_comments": 
     {
         "_title"     : "Error notice handler",
-        "_author"    : "Josantonius - hola@josantonius.com",
+        "_author"    : "Josantonius - hello@josantonius.com",
         "_copyright" : "Copyright (c) 2016 - 2017",
         "_license"   : "http://opensource.org/licenses/MIT - MIT License",
         "_link"      : "http://github.com/josantonius/Notice",
@@ -25,6 +25,7 @@
         "800 - 803" : "PHP Eliasis App Class",
         "804 - 810" : "PHP Eliasis Controller Class",
         "811 - 815" : "PHP Eliasis Hook Class",
+        "816 - 820" : "PHP Eliasis Module Class",
         "995 - 999" : "General errors"
     },
 
@@ -54,8 +55,10 @@
             "806": "View not found",
             "807": "Clone is not allowed in:",
             "811": "Hook location not defined:",
-            "812": "Module configuration file not found",
-            "995": "Unknown error"
+            "816": "The module configuration file is not correct. Path",
+            "817": "Module not found",
+            "995": "Unknown error",
+            "996": "Method not found"
         },
 
         "es": 
@@ -82,8 +85,10 @@
             "806": "No se encontró la vista",
             "807": "No se permite clonar en:",
             "811": "Ubicación del hook no definida:",
-            "812": "No se encontró el archivo de configuración del módulo",
-            "995": "Error desconocido"
+            "816": "El archivo de configuración del módulo no es correcto. Ruta",
+            "817": "Módulo no encontrado",
+            "995": "Error desconocido",
+            "996": "Método no encontrado"
         }
     }
 }
