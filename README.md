@@ -30,7 +30,7 @@ To install PHP Notice library, simply:
 
     $ composer require Josantonius/Notice
 
-The previous command will only install the necessary files, if you prefer to download the entire source, including tests, you can use:
+The previous command will only install the necessary files, if you prefer to download the entire source code (tests, vendor, exceptions, docs...) you can use:
 
     $ composer require Josantonius/Notice --prefer-source
 
