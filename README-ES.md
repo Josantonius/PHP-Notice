@@ -134,6 +134,7 @@ NoticeTest::testGetAllES();
 ### Manejador de excepciones
 
 Esta biblioteca utiliza [control de excepciones](src/Exception) que puedes personalizar a tu gusto.
+
 ### Contribuir
 1. Comprobar si hay incidencias abiertas o abrir una nueva para iniciar una discusión en torno a un fallo o función.
 1. Bifurca la rama del repositorio en GitHub para iniciar la operación de ajuste.
