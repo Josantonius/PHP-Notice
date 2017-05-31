@@ -22,9 +22,6 @@
         "615 - 620" : "PHP Autoload class",
         "700 - 705" : "PHP DataBase class",
         "706 - 710" : "PHP Logger class",
-        "800 - 803" : "PHP Eliasis App Class",
-        "804 - 810" : "PHP Eliasis Controller Class",
-        "811 - 815" : "PHP Eliasis Hook Class",
         "816 - 820" : "PHP Eliasis Module Class",
         "995 - 999" : "General errors"
     },
@@ -35,7 +32,7 @@
         {
             "600": "Parameter type not recognized",
             "601": "No response has been received",
-            "605": "File not found in ",
+            "605": "Could not create file in",
             "606": "Malformed UTF-8 characters",
             "607": "Maximum stack depth exceeded",
             "608": "Syntax error, malformed JSON",
@@ -49,23 +46,18 @@
             "706": "Could not create directory in:",
             "707": "Could not create or open file in:",
             "708": "Could not write to file:",
-            "800": "No parameter was received",
-            "804": "Controller not found",
-            "805": "Model not found",
-            "806": "View not found",
-            "807": "Clone is not allowed in:",
-            "811": "Hook location not defined:",
-            "816": "The module configuration file is not correct. Path",
-            "817": "Module not found",
+            "816": "Module not found",
+            "818": "modules-states.jsond file not found in",
+            "819": "modules-states.jsond could not be created in",
             "995": "Unknown error",
-            "996": "Method not found"
+            "800": "Clone is not allowed in",
         },
 
         "es": 
         {
             "600": "Tipo de parámetro no reconocido",
             "601": "No se ha recibido respuesta",
-            "605": "Archivo no encontrado en ",
+            "605": "No se pudo crear archivo en",
             "606": "Caracteres UTF-8 mal formados",
             "607": "Se superó la profundidad máxima de la pila",
             "608": "Error de sintaxis, JSON malformado",
@@ -79,16 +71,11 @@
             "706": "No se ha podido crear el directorio en:",
             "707": "No se ha podido crear o abrir el archivo en:",
             "708": "No se ha podido escribir en el archivo:",
-            "800": "No se recibió ningún parámetro",
-            "804": "No se encontró el controlador",
-            "805": "No se encontró el modelo",
-            "806": "No se encontró la vista",
-            "807": "No se permite clonar en:",
-            "811": "Ubicación del hook no definida:",
-            "816": "El archivo de configuración del módulo no es correcto. Ruta",
-            "817": "Módulo no encontrado",
+            "816": "Módulo no encontrado",
+            "818": "No existe el archivo modules-states.jsond en",
+            "819": "No se puedo crear el archivo modules-states.jsond en",
             "995": "Error desconocido",
-            "996": "Método no encontrado"
+            "997": "No se permite clonar en",
         }
     }
 }
