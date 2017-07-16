@@ -11,8 +11,6 @@
 
 namespace Josantonius\Notice;
 
-# use Josantonius\Notice\Exception\NoticeException;
-
 /**
  * Notice handler.
  *
@@ -49,27 +47,27 @@ class Notice {
      */
     protected static function load($lang = 'en') {
 
-        if ($lang !== static::$lang) {
+        if ($lang !== self::$lang) {
 
-            static::$notices = null;
+            self::$notices = null;
 
-            static::$lang = $lang;
+            self::$lang = $lang;
         }
 
-        if (is_null(static::$notices)) {
+        if (is_null(self::$notices)) {
 
-            $filepath = __DIR__ . "/resources/notices.jsond";
+            $filepath = __DIR__ . '/resources/notices.jsond';
 
             $jsonFile = file_get_contents($filepath);
 
             $notices  = json_decode($jsonFile, true);
 
-            static::$notices = $notices['data'][static::$lang];
+            self::$notices = $notices['data'][self::$lang];
 
             unset($notices);
         }
 
-        return static::$notices;
+        return self::$notices;
     }
                                                                                 
     /**
@@ -88,17 +86,17 @@ class Notice {
      */
     public static function get($code, $lang = 'en') {
 
-        static::load($lang);
+        self::load($lang);
 
         if (class_exists('Josantonius\\HTTPStatusCode') && $code > 99 && $code < 512) {
 
-            if (!isset(static::$notices[$code]) || empty(static::$notices[$code])) {
+            if (!isset(self::$notices[$code]) || empty(self::$notices[$code])) {
 
-                return HTTPStatusCode::get($code, static::$lang);
+                return HTTPStatusCode::get($code, self::$lang);
             }
         }
 
-        return (isset(static::$notices[$code])) ? static::$notices[$code] : "Undefined";
+        return (isset(self::$notices[$code])) ? self::$notices[$code] : 'Undefined';
     }
 
     /**
@@ -112,8 +110,8 @@ class Notice {
      */
     public static function getAll($lang = 'en') {
 
-        static::load($lang);
+        self::load($lang);
 
-        return static::$notices;
+        return self::$notices;
     }
 }

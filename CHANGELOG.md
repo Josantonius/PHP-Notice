@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.1.3 - 2017-07-16
+* Deleted `Josantonius\Notice\Exception\NoticeException` class.
+* Deleted `Josantonius\Notice\Exception\Exceptions` abstract class.
+* Deleted `Josantonius\Notice\Exception\NoticeException->__construct()` method.
+
 ## 1.1.2- 2017-05-31
 * Notices were edited.
 

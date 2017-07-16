@@ -23,6 +23,7 @@
         "700 - 705" : "PHP DataBase class",
         "706 - 710" : "PHP Logger class",
         "816 - 820" : "PHP Eliasis Module Class",
+        "821 - 825" : "PHP Eliasis modules",
         "995 - 999" : "General errors"
     },
 
@@ -49,6 +50,7 @@
             "816": "Module not found",
             "818": "modules-states.jsond file not found in",
             "819": "modules-states.jsond could not be created in",
+            "821": "A valid database id was not found at",
             "995": "Unknown error",
             "800": "Clone is not allowed in",
         },
@@ -74,6 +76,7 @@
             "816": "Módulo no encontrado",
             "818": "No existe el archivo modules-states.jsond en",
             "819": "No se puedo crear el archivo modules-states.jsond en",
+            "821": "No se encontró un ID de base de datos válido en",
             "995": "Error desconocido",
             "997": "No se permite clonar en",
         }
