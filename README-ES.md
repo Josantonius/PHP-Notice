@@ -1,4 +1,4 @@
-# PHP Notice library
+# PHP Notice library (OBSOLETO)
 
 [![Latest Stable Version](https://poser.pugx.org/josantonius/notice/v/stable)](https://packagist.org/packages/josantonius/notice) [![Total Downloads](https://poser.pugx.org/josantonius/notice/downloads)](https://packagist.org/packages/josantonius/notice) [![Latest Unstable Version](https://poser.pugx.org/josantonius/notice/v/unstable)](https://packagist.org/packages/josantonius/notice) [![License](https://poser.pugx.org/josantonius/notice/license)](https://packagist.org/packages/josantonius/notice)
 
@@ -18,16 +18,6 @@ Biblioteca PHP para el manejo de errores y avisos.
 - [Repositorio](#repositorio)
 - [Licencia](#licencia)
 - [Copyright](#copyright)
-
----
-
-<p align="center"><strong>Echa un vistazo al código</strong></p>
-
-<p align="center">
-  <a href="https://youtu.be/_bNnHdJkkKs" title="Echa un vistazo al código">
-    <img src="https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/resources/youtube-thumbnail.jpg">
-  </a>
-</p>
 
 ---
 
